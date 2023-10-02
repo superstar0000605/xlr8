@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+    "content-hash": "f36eb199608d2673ca8acb053be02e61",
     "packages": [
         {
             "name": "brick/math",
@@ -3104,6 +3104,39 @@
                 }
             ],
             "time": "2023-04-15T23:01:58+00:00"
+        },
+        {
+            "name": "star/hotel-finder",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./nearby-search-hotels",
+                "reference": "ff0c034bd014f9208dc891ff48c0c3e639b3a8b1"
+            },
+            "require": {
+                "illuminate/support": "^10.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Star\\HotelFinder\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dorin Zhang",
+                    "email": "stardev214@gmail.com"
+                }
+            ],
+            "description": "A package to find hotels.",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "symfony/console",
@@ -8065,7 +8098,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "star/hotel-finder": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

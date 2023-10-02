@@ -1,0 +1,22 @@
+{
+    "name": "star/hotel-finder",
+    "description": "A package to find hotels.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Dorin Zhang",
+        "email": "stardev214@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Star\\HotelFinder\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "illuminate/support": "^10.0"
+    }
+  }
+  
